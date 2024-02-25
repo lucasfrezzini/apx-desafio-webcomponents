@@ -20,7 +20,7 @@
 }
 
 .navbar .navbar__menu {
-  position: absolute;
+  position: fixed;
   background-color: var(--color-darken);
   left: 0;
   top: 0;
