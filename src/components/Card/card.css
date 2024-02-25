@@ -1,0 +1,22 @@
+.card {
+  background: var(--color-transparent-bg);
+  color: var(--color-white);
+  padding: 4rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.card__img {
+  border-radius: 2rem;
+}
+
+.card__body h3 {
+  font-size: 3.3rem;
+  line-height: 4rem;
+  margin-block: 2rem;
+}
+
+.card__body p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}

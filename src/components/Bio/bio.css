@@ -1,0 +1,33 @@
+.bio {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.bio__container {
+  padding: 10rem 4rem;
+}
+
+.bio__content h2 {
+  font-size: 4.2rem;
+  margin-block: 5rem;
+}
+
+.bio__content p {
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 960px) {
+  .bio__container {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .bio__content h2 {
+    font-size: 6.4rem;
+  }
+
+  .bio__container img {
+    max-width: 50%;
+  }
+}
