@@ -5,10 +5,10 @@ function Footer(container) {
   <div class="container footer__container">
     <img src="./src/images/logo.png" alt="Logo">
     <nav class="footer__links">
-      <a href="/index.html"><img src="./src/images/home-icon.png" alt="Inicio">Inicio</a>
-      <a href="/servicios.html"><img src="./src/images/user-icon.png" alt="Servicios">Servicios</a>
-      <a href="/portfolio.html"><img src="./src/images/user-icon.png" alt="Portfolio">Portfolio</a>
-      <a href="/contacto.html"><img src="./src/images/contact-icon.png" alt="Contacto">Contacto</a>
+      <a href="./index.html"><img src="./src/images/home-icon.png" alt="Inicio">Inicio</a>
+      <a href="./servicios.html"><img src="./src/images/user-icon.png" alt="Servicios">Servicios</a>
+      <a href="./portfolio.html"><img src="./src/images/user-icon.png" alt="Portfolio">Portfolio</a>
+      <a href="./contacto.html"><img src="./src/images/contact-icon.png" alt="Contacto">Contacto</a>
     </nav>
     <nav class="footer__socials">
       <a href="https://www.linkedin.com/in/lucasfrezzini" target="_blank"><img src="./src/images/linkedin.png"
