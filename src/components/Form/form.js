@@ -14,15 +14,15 @@ function Form(container) {
   <form action="/" class="form">
     <div class="form__fieldset">
       <label for="nombre">Nombre</label>
-      <input type="text" name="nombre" id="nombre" placeholder="Tanito">
+      <input type="text" name="nombre" id="nombre" placeholder="Tanito" required>
     </div>
     <div class="form__fieldset">
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="tanito@apx.school">
+      <input type="email" name="email" id="email" placeholder="tanito@apx.school" required>
     </div>
     <div class="form__fieldset">
       <label for="mensaje">Mensaje</label>
-      <textarea name="mensaje" id="mensaje" placeholder="Soy un mensajito tierno 🧡"></textarea>
+      <textarea name="mensaje" id="mensaje" placeholder="Soy un mensajito tierno 🧡" required></textarea>
     </div>
     <button type="submit" class="form__submit">Enviar <img src="./src/images/submit-icon.png" alt="Sumbit icon"></button>
     <p class="send-message"></p>
